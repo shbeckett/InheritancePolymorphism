@@ -2,7 +2,7 @@ package src;
 
 public class BigCat extends Cat {
     
-    public String makeNoise(){
+    public void makeNoise(){
         System.out.println("Roar");
     }
 }

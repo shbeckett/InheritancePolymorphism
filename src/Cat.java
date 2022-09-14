@@ -12,7 +12,7 @@ public class Cat{
         this.canRetractClaws = canRetractClaws;
     }
 
-    public String makeNoise(){
+    public void makeNoise(){
         System.out.println("Purr");
     }
 
