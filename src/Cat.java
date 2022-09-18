@@ -1,7 +1,7 @@
 package src;
 public class Cat{
     private int numWhiskers;
-    private String colour;
+    protected String colour;
     public Boolean canRetractClaws;
 
     public Boolean getCanRetractClaws() {

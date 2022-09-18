@@ -21,5 +21,10 @@ public class Main {
         Clarence.setEatsPeople(true);
         System.out.println("Sadly it is " + Clarence.eatsPeople()+" that Clarence eats people.");
         cats[3] = Clarence; // had to create new object first then assign to cats[] but why?
+        Bear bear1 = new Bear(120, "Alaska Audrey");
+        bear1.goUp();
+        bear1.comeDown();
+        Clarence.goUp();
+        Clarence.comeDown();//both implementing Climber interface methods
     }
 }
